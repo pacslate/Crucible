@@ -57,6 +57,9 @@ AI:   [Runs CEO Mom Test → GTM Revenue]
 ### Option B — Manual Prompting via the Playbook
 For any specific stage, use the pre-built prompt templates in `.antigravity/TEAM_PLAYBOOK.md`. Each prompt is copy-paste ready with `[bracketed]` fields to fill in. Use this when you want to run a single persona on a specific task without going through the full flow.
 
+### Using Cursor or Claude Code?
+Crucible works natively in Cursor and Claude Code with no manual configuration — the adapter files are already in the repo. See **[SETUP.md](SETUP.md)** for setup steps and a full capability comparison.
+
 ---
 
 ## The Build Lifecycle
