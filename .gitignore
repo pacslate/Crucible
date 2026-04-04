@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows
+ehthumbs.db
+[Dd]esktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Antigravity system files (local only, not part of the shareable template)
+.gemini/
+
+# Keep ideation_vat and projects folders tracked but ignore their contents
+# (test runs, real projects, and killed ideas are local — not committed to the template repo)
+.antigravity/ideation_vat/*
+!.antigravity/ideation_vat/README.md
+
+.antigravity/projects/*
+!.antigravity/projects/README.md
+!.antigravity/projects/_log_template.md
