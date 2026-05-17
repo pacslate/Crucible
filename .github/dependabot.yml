@@ -1,0 +1,15 @@
+# Dependabot — GitHub Actions updates only (no package manifest detected)
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    labels: ["dependencies", "ci"]
+    commit-message:
+      prefix: "chore(ci)"
+    groups:
+      actions-patch-minor:
+        update-types: ["minor", "patch"]
